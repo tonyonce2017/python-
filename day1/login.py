@@ -26,7 +26,7 @@ while count < 3:
 else:
     print("连续输错3次, 账户已锁定!")
     acounts[name]["useable"] = "false"
-    with open("acount.json","w") as f:
+    with open("acount.json", "w") as f:
         json.dump(acounts, f)
     
 
